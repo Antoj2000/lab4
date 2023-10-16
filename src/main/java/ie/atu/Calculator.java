@@ -3,10 +3,12 @@ package ie.atu;
 import java.util.Scanner;
 
 public class Calculator {
-    public static void main(String[] args) {
-     Multiply();}
+    public static void main(String[] args){
 
-    public static void Multiply()
+    Divide();
+
+}
+    public static void Divide()
     {
         System.out.println("Please enter your first number :");
         Scanner inputs = new Scanner(System.in);
@@ -15,7 +17,7 @@ public class Calculator {
          System.out.println("Please enter your second number :");
          int secondNumber = inputs.nextInt();
 
-         int total = firstNumber * secondNumber;
+         int total = firstNumber / secondNumber;
          System.out.println("The total is " + total);
 
     }
